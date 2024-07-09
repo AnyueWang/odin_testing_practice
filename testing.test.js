@@ -1,5 +1,6 @@
 import { capitalize, reverse, caesarCipher } from './stringProcessor'
 import calculator from './calculator'
+import analyzeArray from './arrayAnalyzer'
 
 describe('basic string processor', () => {
     test('input "hello", we got "Hello"', () => {
